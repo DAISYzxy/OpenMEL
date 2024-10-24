@@ -18,7 +18,7 @@
 # Contents
 
 - [Introduction](#Introdution)
-- [Running Experiments](#runtime-experiments)
+- [Runtime Experiments](#runtime-experiments)
 - [Installation](#Installation)
 - [Test](#Test)
 
