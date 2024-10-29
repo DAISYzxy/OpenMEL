@@ -2,7 +2,7 @@ from maximum_spanning import *
 
 
 
-# Test WikiMEL
+# Test WikiMEL, change to test RichpediaMEL please replace the corresponding file paths below
 with open('WikiMEL/WIKIMEL_test.json', 'r') as json_file:
     parsed_text = json.load(json_file)
     
@@ -50,6 +50,8 @@ index.add(text_feature)
 for idx in tqdm(range(len(parsed_text))):
     mention_text_query = Tm[idx]
     mention_img = parsed_text[idx]["imgPath"]
+    if not mention_img.endswith(".jpg"):
+        mention_img = mention_img.rsplit('.', 1)[0] + ".jpg"
     threshold = 0.5
     match_found = False
     m = -1
