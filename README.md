@@ -20,6 +20,7 @@
 - [Introduction](#Introduction)
 - [Installation](#Installation)
 - [Test](#Test)
+- [Evaluation](#Evaluation)
 
 # Introduction
 
@@ -42,3 +43,9 @@ Test the performance of OpenMEL, download the test data and place it under the O
 ```bash
 python main.py
 ```
+
+
+# Evaluation
+We present the comprehensive evaluation results in the figure below, including those on the processed WeiboNewsMEL dataset.
+
+<img src="fig/full_results.png" width="1000px">
